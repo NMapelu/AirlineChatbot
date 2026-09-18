@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data (large files - keep these in Drive, not Git)
+data/
+*.csv
+*.parquet
+
+# Models (large files)
+*.pth
+*.pt
+*.h5
+*.pkl
+checkpoints/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Outputs
+outputs/
+runs/
+logs/
+
+# Secrets
+.env
+
+# System
+.DS_Store
+Thumbs.db
